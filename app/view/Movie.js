@@ -1,4 +1,4 @@
-define(['backbone', 'jquery', 'utils'], function (Backbone, $, utils) {
+define(['backbone', 'jquery', 'app/utils'], function (Backbone, $, utils) {
   return Backbone.View.extend({
     tagName: 'li',
     className: 'movie-container',

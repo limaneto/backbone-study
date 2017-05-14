@@ -4,8 +4,6 @@ function ($, utils, event) {
     tagName: 'div',
     className: 'card movie-container',
 
-    // TODO create a default movie cover url attribute
-
     initialize: function () {
       this.template = utils.templateHelper('movie-template')
     },

@@ -3,5 +3,13 @@
     "plugins": [
         "standard",
         "promise"
-    ]
+    ],
+    "globals": {
+      "define": true,
+      "templateHelper": true,
+      "alert": true
+    },
+    "rules": {
+      "indent": ["error", 2]
+    }
 }

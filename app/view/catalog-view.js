@@ -1,8 +1,8 @@
 define(['jquery', 'app/collection/movie-collection', 'app/view/movie-view', 'app/utils'],
 function ($, MovieCollection, MovieView, utils) {
   return Backbone.View.extend({
-    tagName: 'ul',
-    id: 'catalog',
+    tagName: 'div',
+    id: 'catalog-sidebar',
 
     initialize: function () {
       this.render()

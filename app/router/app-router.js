@@ -12,13 +12,14 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, utils) {
       movieCollection.fetch({
         success: function () {
           utils.movies = movieCollection.toJSON()
-          $('#catalog-sidebar').append(new CatalogView().el)
+          $('body').append(new CatalogView().el)
         }
       })
     },
 
     movieSelected: function (id) {
       var selectedElement = movieCollection.get(id.toString())
+      console.log(selectedElement.set({coverImage: 'http://placehold.it/500x400'}))
       $('.selected-movie-container').remove()
       $('body').append(new SelectedMovieView({model: selectedElement}).render().el)
     }

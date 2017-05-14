@@ -1,8 +1,8 @@
 define(['jquery', 'app/utils', 'app/events/event-agreggator'],
 function ($, utils, event) {
   return Backbone.View.extend({
-    tagName: 'li',
-    className: 'movie-container',
+    tagName: 'div',
+    className: 'card movie-container',
 
     // TODO create a default movie cover url attribute
 

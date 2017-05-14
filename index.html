@@ -5,29 +5,31 @@
     <title>title</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="app/vendor/bootstrap/tether.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="app/vendor/bootstrap/bootstrap.min.css">
+    <script src="app/vendor/bootstrap/bootstrap.min.js"></script>
     <script src="node_modules/underscore/underscore-min.js"></script>
     <script src="node_modules/backbone/backbone-min.js"></script>
     <script data-main="requireConfig" src="node_modules/requirejs/require.js"></script>
 
 
-    <!-- SOURCE CODE -->
-    <!--<script src="try.js"></script>-->
-
-
-
     <!-- TEMPLATES -->
     <script type="text/template" id="movie-template">
-      <div><%= title%></div>
-      <div><%= releaseDate%></div>
+      <img class="card-img-top" src="<%= coverImage %>"/>
+      <div class="card-block">
+        <h5 class="card-title"><%= title%></h5>
+        <p class="card-text"><%= releaseDate%></p>
+      </div>
     </script>
 
 
     <script type="text/template" id="selected-movie-template">
-      <div><%= title%></div>
-      <div><%= releaseDate%></div>
-      <div id="movie-info">
-        <div><%= description%></div>
-        <div>Rate: <%= rate%></div>
+      <img class="card-img-top" src="<%= coverImage %>"/>
+      <div class="card-block">
+        <h3 class="card-title"><%= title%></h3>
+        <p class="card-text"><%= releaseDate%></p>
+        <p class="card-text">Rate: <%= rate%></p>
+        <p class="card-text"><%= description%></p>
       </div>
     </script>
 
@@ -36,7 +38,5 @@
   </head>
 
     <body>
-      <div id="catalog-sidebar">
-      </div>
     </body>
 </html>

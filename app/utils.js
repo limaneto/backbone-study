@@ -4,10 +4,7 @@ define(['jquery'],
       return _.template($('#' + id).html())
     }
 
-    var movies = []
-
     return {
-      templateHelper: templateHelper,
-      movies: movies
+      templateHelper: templateHelper
     }
   })

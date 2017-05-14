@@ -1,5 +1,5 @@
-define(['jquery', 'app/collection/movie-collection', 'app/view/movie-view', 'app/utils'],
-function ($, MovieCollection, MovieView, utils) {
+define(['jquery', 'app/collection/movie-collection', 'app/view/movie-view'],
+function ($, MovieCollection, MovieView) {
   return Backbone.View.extend({
     tagName: 'div',
     id: 'catalog-sidebar',
@@ -9,8 +9,8 @@ function ($, MovieCollection, MovieView, utils) {
     },
 
     render: function () {
-      var _this = this // avoing referencing global this inside loop
-      _.each(utils.movies, function (movie) {
+      var _this = this
+      _.each(_this.collection, function (movie) {
         _this.renderMovie(movie)
       })
       return this

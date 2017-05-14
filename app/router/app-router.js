@@ -1,5 +1,5 @@
-define(['jquery', 'app/view/catalog-view', 'app/view/selected-movie-view', 'app/collection/movie-collection', 'app/utils'],
-function ($, CatalogView, SelectedMovieView, MovieCollection, utils) {
+define(['jquery', 'app/view/catalog-view', 'app/view/selected-movie-view', 'app/collection/movie-collection'],
+function ($, CatalogView, SelectedMovieView, MovieCollection) {
   var movieCollection = ''
   return Backbone.Router.extend({
     routes: {
@@ -10,16 +10,16 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, utils) {
     displayCatalog: function () {
       movieCollection = new MovieCollection()
       movieCollection.fetch({
-        success: function () {
-          utils.movies = movieCollection.toJSON()
-          $('body').append(new CatalogView().el)
+        success: function (response) {
+          var catalog = new CatalogView({collection: response.toJSON()})
+          $('body').append(catalog.el)
         }
       })
     },
 
     movieSelected: function (id) {
       var selectedElement = movieCollection.get(id.toString())
-      console.log(selectedElement.set({coverImage: 'http://placehold.it/500x400'}))
+      selectedElement.set({coverImage: 'http://placehold.it/500x400'})
       $('.selected-movie-container').remove()
       $('body').append(new SelectedMovieView({model: selectedElement}).render().el)
     }

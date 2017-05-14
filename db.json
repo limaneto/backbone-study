@@ -1,0 +1,32 @@
+{
+  "catalog": [
+    {
+      "title": "Die Hard",
+      "releaseDate": "1988",
+      "id": "1",
+      "description": "John McClane, officer of the NYPD, tries to save his wife Holly Gennaro and several others that were taken hostage by German terrorist Hans Gruber during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+      "rate": "1"
+    },
+    {
+      "title": "Goodfellas",
+      "releaseDate": "1990",
+      "id": "2",
+      "description": "The story of Henry Hill and his life through the teen years into the years of mafia, covering his relationship with wife Karen Hill and his Mob partners Jimmy Conway and Tommy DeVitto in the Italian-American crime syndicate.",
+      "rate": "3"
+    },
+    {
+      "title": "The Wizzard of Oz",
+      "releaseDate": "1939",
+      "id": "3",
+      "description": "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home in Kansas and help her friends as well.",
+      "rate": "4"
+    },
+    {
+      "title": "Kill Bill",
+      "releaseDate": "2003",
+      "id": "4",
+      "description": "The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.",
+      "rate": "3"
+    }
+  ]
+}

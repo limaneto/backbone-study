@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/underscore/underscore-min.js"></script>
+    <script src="node_modules/backbone/backbone-min.js"></script>
+    <script src="node_modules/requirejs/require.js" data-main="requireConfig"></script>
+
+
+    <!-- SOURCE CODE -->
+    <!--<script src="try.js"></script>-->
+
+
+
+    <!-- TEMPLATES -->
+    <script type="text/template" id="movie-template">
+      <div><%= title%></div>
+      <div><%= releaseDate%></div>
+    </script>
+
+
+    <script type="text/template" id="selected-movie-template">
+      <div><%= title%></div>
+      <div><%= releaseDate%></div>
+      <div><%= description%></div>
+      <div>Rate: <%= rate%></div>
+    </script>
+
+    <!-- -->
+
+  </head>
+
+    <body>
+    <div id="catalog">
+    </div>
+    </body>
+</html>

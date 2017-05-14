@@ -3,5 +3,5 @@
 .DS_Store
 app/.DS_Store
 app/try.js
-/app/view/test.js
 /npm-debug.log
+/testPurpose.js

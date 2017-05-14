@@ -1,4 +1,4 @@
-define(['jquery', 'app/collection/movie-collection', 'app/view/movie-view'],
+define(['jquery', 'movieCollection', 'movieView'],
 function ($, MovieCollection, MovieView) {
   return Backbone.View.extend({
     tagName: 'div',

@@ -1,4 +1,4 @@
-define(['app/utils'],
+define(['utils'],
 function (utils) {
   return Backbone.View.extend({
     tagName: 'div',

@@ -1,4 +1,4 @@
-define(['app/model/movie-model'],
+define(['movieModel'],
 function (Movie) {
   return Backbone.Collection.extend({
     model: Movie,

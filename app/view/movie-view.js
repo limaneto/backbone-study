@@ -1,4 +1,4 @@
-define(['jquery', 'app/utils', 'app/events/event-agreggator'],
+define(['jquery', 'utils', 'eventAgreggator'],
 function ($, utils, event) {
   return Backbone.View.extend({
     tagName: 'div',

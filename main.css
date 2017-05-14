@@ -1,5 +1,8 @@
+body {
+    background-color: aliceblue;
+}
+
 #catalog-sidebar {
-    background-color: gainsboro;
     width: 450px;
 }
 
@@ -17,6 +20,9 @@
 }
 
 .selected-movie-container {
+    position: fixed;
+    top: 100px;
+    left: 800px;
     width: 400px;
     height: 300px;
     border: 4px solid;
@@ -26,4 +32,12 @@
 
 li {
     list-style-type: none;
+}
+
+#movie-info {
+    margin: 300px 0 0 0;
+}
+
+#movie-info div {
+    margin: 10px 0 0 0;
 }

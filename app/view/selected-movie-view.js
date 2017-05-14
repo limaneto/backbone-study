@@ -1,10 +1,11 @@
-define('backbone', function (Backbone) {
+define(['app/utils'],
+function (utils) {
   return Backbone.View.extend({
     tagName: 'div',
     className: 'selected-movie-container',
 
     initialize: function () {
-      this.template = templateHelper('selected-movie-template')
+      this.template = utils.templateHelper('selected-movie-template')
     },
 
     render: function () {

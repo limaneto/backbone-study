@@ -1,4 +1,5 @@
-define(['backbone', 'jquery', 'app/utils'], function (Backbone, $, utils) {
+define(['jquery', 'app/utils', 'app/events/event-agreggator'],
+function ($, utils, event) {
   return Backbone.View.extend({
     tagName: 'li',
     className: 'movie-container',
@@ -6,12 +7,12 @@ define(['backbone', 'jquery', 'app/utils'], function (Backbone, $, utils) {
     // TODO create a default movie cover url attribute
 
     initialize: function () {
-      this.template = templateHelper('movie-template')
+      this.template = utils.templateHelper('movie-template')
     },
 
     events: {
       'click': function () {
-        utils.eventAgregattor.trigger('movieSelected', this.model)
+        event.eventAgregattor.trigger('movieSelected', this.model)
       }
     },
 

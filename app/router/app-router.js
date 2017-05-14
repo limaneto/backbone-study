@@ -1,5 +1,5 @@
-define(['backbone', 'jquery', 'app/view/Catalog', 'app/view/SelectedMovie', 'app/collection/Movie', 'app/utils'],
-function (Backbone, $, CatalogView, SelectedMovieView, MovieCollection, utils) {
+define(['jquery', 'app/view/catalog-view', 'app/view/selected-movie-view', 'app/collection/movie-collection', 'app/utils'],
+function ($, CatalogView, SelectedMovieView, MovieCollection, utils) {
   var movieCollection = ''
   return Backbone.Router.extend({
     routes: {

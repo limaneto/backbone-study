@@ -5,3 +5,4 @@ app/.DS_Store
 app/try.js
 /npm-debug.log
 /testPurpose.js
+/main.min.js

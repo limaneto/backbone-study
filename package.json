@@ -4,7 +4,8 @@
   "description": "",
   "main": "serve.js",
   "scripts": {
-    "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"node serve.js\" \"opn http://localhost:8080/index.html\" ",
+    "database": "json-server --watch db.json",
+    "start": "concurrently \"node build/r.js -o build/build.config.js\" \"node serve.js\" \"opn http://localhost:8080/index.html\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {

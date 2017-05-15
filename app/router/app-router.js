@@ -1,6 +1,5 @@
-define(['jquery', 'catalogView', 'selectedMovieView', 'movieCollection', 'backbone'],
+define(['jquery', 'catalogView', 'selectedMovieView', 'movieCollection', 'Backbone'],
 function ($, CatalogView, SelectedMovieView, MovieCollection, Backbone) {
-  var movieCollection = ''
   return Backbone.Router.extend({
     routes: {
       'catalog': 'displayCatalog',
@@ -8,18 +7,15 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, Backbone) {
     },
 
     initialize: function () {
-      var _this = this
-      movieCollection = new MovieCollection()
-      movieCollection.fetch({
-        success: function (response) {
-          _this.movieCollection = response
-          _this.displayCatalog(response.toJSON())
-        }
-      })
+      console.log('router initialize')
     },
 
-    displayCatalog: function (catalog) {
-      $('body').append(new CatalogView({collection: catalog}).el)
+    displayCatalog: function () {
+      MovieCollection.fetch({
+        success: function (response) {
+          $('body').append(new CatalogView({collection: response.toJSON()}).el)
+        }
+      })
     },
 
     /**
@@ -28,9 +24,9 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, Backbone) {
      * Because of a weird bug I had to fetch the collection again for a refresh on the page to work
      * @param id - Id of the movie's model, provided by the eventAgreggator movieSelected event
      */
+
     movieSelected: function (id) {
-      movieCollection = new MovieCollection()
-      movieCollection.fetch({
+      MovieCollection.fetch({
         success: function (response) {
           var selectedElement = response.get(id.toString())
           selectedElement.set({coverImage: 'http://placehold.it/500x400'})

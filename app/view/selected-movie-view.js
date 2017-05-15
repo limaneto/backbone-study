@@ -1,4 +1,4 @@
-define(['utils', 'backbone', 'templates'],
+define(['utils', 'Backbone', 'templates'],
 function (utils, Backbone, Templates) {
   return Backbone.View.extend({
     tagName: 'div',

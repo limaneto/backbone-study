@@ -1,5 +1,5 @@
-define(['jquery', 'movieCollection', 'movieView', 'backbone', 'underscore'],
-function ($, MovieCollection, MovieView, Backbone, _) {
+define(['jquery', 'movieCollection', 'movieView', 'Backbone'],
+function ($, MovieCollection, MovieView, Backbone) {
   return Backbone.View.extend({
     tagName: 'div',
     id: 'catalog-sidebar',

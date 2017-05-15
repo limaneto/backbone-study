@@ -1,5 +1,5 @@
-define(['jquery', 'utils', 'eventAgreggator', 'backbone', 'templates'],
-function ($, utils, event, Backbone, Templates) {
+define(['jquery', 'utils', 'Backbone', 'templates', 'app/events/event-agreggator'],
+function ($, utils, Backbone, Templates, event) {
   return Backbone.View.extend({
     tagName: 'div',
     className: 'card movie-container',
@@ -15,7 +15,7 @@ function ($, utils, event, Backbone, Templates) {
 
     events: {
       'click': function () {
-        event.eventAgregattor.trigger('movieSelected', this.model)
+        event.eventAggregator.trigger('movieSelected', this.model)
       }
     }
   })

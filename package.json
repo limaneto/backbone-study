@@ -4,7 +4,7 @@
   "description": "",
   "main": "serve.js",
   "scripts": {
-    "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"node serve.js\" \"open http://localhost:8080/index.html\" ",
+    "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"node serve.js\" \"opn http://localhost:8080/index.html\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -24,6 +24,7 @@
     "backbone": "1.3.3",
     "handlebars": "4.0.8",
     "jquery": "3.2.1",
+    "opn-cli": "3.1.0",
     "requirejs": "2.3.3",
     "underscore": "1.8.3"
   },

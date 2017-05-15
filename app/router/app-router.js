@@ -6,10 +6,6 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, Backbone) {
       'catalog/:id': 'movieSelected'
     },
 
-    initialize: function () {
-      console.log('router initialize')
-    },
-
     displayCatalog: function () {
       MovieCollection.fetch({
         success: function (response) {

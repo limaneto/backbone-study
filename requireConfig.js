@@ -33,7 +33,8 @@ require.config({
 })
 
 require(['app/router/app-router'], function (Router) {
-  var router = new Router()
+  new Router()
+  // var router = new Router()
   Backbone.history.start()
-  router.navigate('catalog', {trigger: true})
+  // router.navigate('catalog', {trigger: true})
 })

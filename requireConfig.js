@@ -3,6 +3,7 @@ require.config({
     jquery: 'node_modules/jquery/dist/jquery',
     underscore: 'node_modules/underscore/underscore-min',
     backbone: 'node_modules/backbone/backbone-min',
+    Handlebars: 'node_modules/handlebars/dist/handlebars.min',
     movieCollection: 'app/collection/movie-collection',
     eventAgreggator: 'app/events/event-agreggator',
     movieModel: 'app/model/movie-model',
@@ -10,7 +11,9 @@ require.config({
     catalogView: 'app/view/catalog-view',
     movieView: 'app/view/movie-view',
     selectedMovieView: 'app/view/selected-movie-view',
-    utils: 'app/utils'
+    utils: 'app/utils',
+    templates: 'app/templates/template-compiler',
+    text: 'build/text'
   },
   shim: {
     backbone: {
@@ -22,6 +25,9 @@ require.config({
     },
     underscore: {
       exports: '_'
+    },
+    Handlebars: {
+      exports: 'Handlebars'
     }
   }
 })

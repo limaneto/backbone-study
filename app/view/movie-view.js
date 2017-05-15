@@ -1,5 +1,5 @@
-define(['jquery', 'utils', 'eventAgreggator'],
-function ($, utils, event) {
+define(['jquery', 'utils', 'eventAgreggator', 'backbone'],
+function ($, utils, event, Backbone) {
   return Backbone.View.extend({
     tagName: 'div',
     className: 'card movie-container',

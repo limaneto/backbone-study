@@ -1,5 +1,5 @@
-define(['utils'],
-function (utils) {
+define(['utils', 'backbone'],
+function (utils, Backbone) {
   return Backbone.View.extend({
     tagName: 'div',
     className: 'card selected-movie-container',

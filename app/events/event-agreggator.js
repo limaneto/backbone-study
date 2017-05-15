@@ -1,5 +1,5 @@
-define([],
-function () {
+define(['backbone'],
+function (Backbone) {
   var eventAgregattor = _.extend({}, Backbone.Events)
 
   eventAgregattor.on('movieSelected', function (movie) {

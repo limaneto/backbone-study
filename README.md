@@ -4,8 +4,6 @@
 [![dependencies-badge]][dependencies]
 [![dev-dependencies-badge]][dev-dependencies]
 
-Just made this website to show you my favourite movies of all times.
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for 

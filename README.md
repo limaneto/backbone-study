@@ -45,3 +45,9 @@ This project is licensed under the MIT License - see the
 [dependencies]: https://david-dm.org/limaneto/backbone-study.svg
 [dev-dependencies-badge]: https://david-dm.org/limaneto/backbone-study/dev-status.svg
 [dev-dependencies]: https://david-dm.org/limaneto/backbone-study?type=dev.
+
+# Note
+
+> I did not put the actual movie covers since it would not be helpful to judge my programming skills
+> and would be time consuming to search for good movie covers pictures.
+> Instead I used a placeholder image.

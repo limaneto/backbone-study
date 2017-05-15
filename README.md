@@ -22,7 +22,7 @@ development and testing purposes.
 ### Running The Project
 
 - Run `npm start`
-- After the website opens, may be required to reload the page.
+- After the website opens, may be required to reload the page if the content does not show.
 
 ## Built With
 

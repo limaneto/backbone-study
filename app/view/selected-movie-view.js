@@ -5,7 +5,6 @@ function (utils, Backbone, Templates) {
     className: 'card selected-movie-container',
 
     initialize: function () {
-      // this.template = utils.templateHelper('selected-movie-template')
       this.template = Templates.getSelectedMovieTemplate()
     },
 

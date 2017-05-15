@@ -2,10 +2,13 @@
   "name": "backbone-study",
   "version": "1.0.0",
   "description": "",
-  "main": "ModelChange.js",
+  "main": "serve.js",
   "scripts": {
     "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"node serve.js\" \"open http://localhost:8080/index.html\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.10"
   },
   "repository": {
     "type": "git",

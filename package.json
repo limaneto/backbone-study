@@ -4,7 +4,7 @@
   "description": "",
   "main": "ModelChange.js",
   "scripts": {
-    "start": "concurrently \"json-server --watch db.json\" \"open index.html\"",
+    "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"open index.html\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

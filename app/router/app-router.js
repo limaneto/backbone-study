@@ -17,6 +17,11 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, Backbone) {
       })
     },
 
+    /**
+     * This event creates a new html element with info about the movie selected and appends
+     * to the body of the page
+     * @param id - Id of the movie's model, provided by the eventAgreggator movieSelected event
+     */
     movieSelected: function (id) {
       var selectedElement = movieCollection.get(id.toString())
       selectedElement.set({coverImage: 'http://placehold.it/500x400'})

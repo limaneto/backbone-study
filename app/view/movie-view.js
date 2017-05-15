@@ -5,7 +5,7 @@ function ($, utils, event, Backbone, Templates) {
     className: 'card movie-container',
 
     initialize: function () {
-      this.template = Templates.movieContainer()
+      this.template = Templates.getCompiledMovieTemplate()
     },
 
     render: function () {

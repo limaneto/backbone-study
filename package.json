@@ -4,7 +4,7 @@
   "description": "",
   "main": "ModelChange.js",
   "scripts": {
-    "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"open index.html\" ",
+    "start": "concurrently \"json-server --watch db.json\" \"node build/r.js -o build/build.config.js\" \"node serve.js\" \"open http://localhost:8080/index.html\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,6 +32,7 @@
     "eslint-plugin-node": "4.2.2",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "3.0.1",
+    "express": "4.15.2",
     "json-server": "0.10.0"
   }
 }

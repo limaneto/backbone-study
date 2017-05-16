@@ -1,21 +1,32 @@
-body{
+body {
     background-color: #292b2c !important;
+}
+
+.movie-container img {
+    height: 140px;
+    width: 100%;
+}
+
+.card-block #director {
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 #catalog-sidebar {
     width: 300px;
+    margin: 75px 0 0 50px;
 }
 
 .movie-container {
-    width: 20rem;
+    width: 25rem;
     margin: 30px 0 0 30px
 }
 
 .selected-movie-container {
     position: fixed !important;
-    left: 650px;
-    top:100px;
-    width: 600px;
+    left: 750px;
+    top:130px;
+    width: 660px;
 
 }
 

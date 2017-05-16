@@ -1,109 +1,116 @@
 {
   "catalog": [
     {
-      "title": "The Shawshank Redemption",
-      "releaseDate": "1994",
       "id": "1",
-      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "rate": "5"
+      "title": "The Shawshank Redemption",
+      "director": "Stephen King",
+      "releaseDate": "1994",
+      "rate": "5",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
     },
     {
-      "title": "Pulp Fiction",
-      "releaseDate": "1994",
       "id": "2",
-      "description": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-      "rate": "4"
+      "title": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "releaseDate": "1994",
+      "rate": "4",
+      "description": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
     },
     {
-      "title": "The Wizzard of Oz",
-      "releaseDate": "1939",
       "id": "3",
-      "description": "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home in Kansas and help her friends as well.",
-      "rate": "4"
-    },
-    {
-      "title": "Kill Bill",
-      "releaseDate": "2003",
-      "id": "4",
-      "description": "The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.",
-      "rate": "3"
-    },
-    {
-      "title": "Whatever Works",
-      "releaseDate": "2009",
-      "id": "5",
-      "description": "A middle-aged, misanthropic divorcée from New York City surprisingly enters a fulfilling, Pygmalion-type relationship with a much younger, unsophisticated Southern girl.",
-      "rate": "4"
-    },
-    {
-      "title": "The Good, The Bad and The Ugly",
-      "releaseDate": "1966",
-      "id": "6",
-      "description": "TA bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
-      "rate": "5"
-    },
-    {
       "title": "The Wizzard of Oz",
+      "director": "Victor Fleming",
       "releaseDate": "1939",
+      "rate": "4",
+      "description": "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home in Kansas and help her friends as well."
+    },
+    {
+      "id": "4",
+      "title": "Kill Bill",
+      "director": "Quentin Tarantino",
+      "releaseDate": "2003",
+      "rate": "3",
+      "description": "The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of."
+    },
+    {
+      "id": "5",
+      "title": "Whatever Works",
+      "director": "Woody Allen",
+      "releaseDate": "2009",
+      "rate": "4",
+      "description": "A middle-aged, misanthropic divorcée from New York City surprisingly enters a fulfilling, Pygmalion-type relationship with a much younger, unsophisticated Southern girl."
+    },
+    {
+      "id": "6",
+      "title": "The Good, The Bad and The Ugly",
+      "director": "Sergio Leone",
+      "releaseDate": "1966",
+      "rate": "5",
+      "description": "TA bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
       "id": "7",
-      "description": "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home in Kansas and help her friends as well.",
-      "rate": "4"
-    },
-    {
       "title": "Fight Club",
+      "director": "David Fincher",
       "releaseDate": "1999",
+      "rate": "3",
+      "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more."
+    },
+    {
       "id": "8",
-      "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more.",
-      "rate": "3"
-    },
-    {
-      "title": "Cidade de Deus",
+      "title": "Fernando Meirelles",
+      "director": "Stephen King",
       "releaseDate": "2002",
+      "rate": "5",
+      "description": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer."
+    },
+    {
       "id": "9",
-      "description": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
-      "rate": "5"
-    },
-    {
       "title": "Léon",
+      "director": "Luc Besson",
       "releaseDate": "1994",
+      "rate": "4",
+      "description": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade."
+    },
+    {
       "id": "10",
-      "description": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade.",
-      "rate": "4"
-    },
-    {
       "title": "American History X",
+      "director": "Tony Kaye",
       "releaseDate": "1998",
+      "rate": "4",
+      "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did."
+    },
+    {
       "id": "11",
-      "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
-      "rate": "4"
-    },
-    {
       "title": "Amadeus",
+      "director": "Milos Forman",
       "releaseDate": "1984",
+      "rate": "3",
+      "description": "The incredible story of Wolfgang Amadeus Mozart, told by his peer and secret rival Antonio Salieri - now confined to an insane asylum."
+    },
+    {
       "id": "12",
-      "description": "The incredible story of Wolfgang Amadeus Mozart, told by his peer and secret rival Antonio Salieri - now confined to an insane asylum.",
-      "rate": "3"
-    },
-    {
       "title": "General",
+      "director": "Buster Keaton",
       "releaseDate": "1926",
+      "rate": "4",
+      "description": "The incredible story of Wolfgang Amadeus Mozart, told by his peer and secret rival Antonio Salieri - now confined to an insane asylum."
+    },
+    {
       "id": "13",
-      "description": "The incredible story of Wolfgang Amadeus Mozart, told by his peer and secret rival Antonio Salieri - now confined to an insane asylum.",
-      "rate": "4"
-    },
-    {
-      "title": "Ladri di biciclette",
+      "title": "Bicycle Thieves",
+      "director": "Vittorio de Sica",
       "releaseDate": "1948",
-      "id": "14",
-      "description": "In post-war Italy, a working-class man's bicycle is stolen. He and his son set out to find it.",
-      "rate": "5"
+      "rate": "5",
+      "description": "In post-war Italy, a working-class man's bicycle is stolen. He and his son set out to find it."
     },
     {
+      "id": "14",
       "title": "Forrest Gump",
+      "director": "Robert Zemeckis",
       "releaseDate": "1994",
-      "id": "15",
-      "description": "While not intelligent, Forrest Gump has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
-      "rate": "4"
+      "rate": "4",
+      "description": "While not intelligent, Forrest Gump has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him."
     }
   ]
 }

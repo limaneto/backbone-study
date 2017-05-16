@@ -2,7 +2,7 @@ define(['Backbone'],
 function (Backbone) {
   return Backbone.Model.extend({
     defaults: {
-      coverImage: 'http://placehold.it/200x99'
+      coverImage: 'http://placehold.it/500x400'
     },
 
     validate: function (attr) {

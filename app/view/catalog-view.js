@@ -10,15 +10,16 @@ function ($, MovieCollection, MovieView, Backbone) {
 
     render: function () {
       var _this = this
-      _.each(_this.collection, function (movie) {
-        _this.renderMovie(movie)
-      })
-      return this
-    },
 
-    renderMovie: function (movie) {
-      var movieView = new MovieView({model: movie})
-      this.$el.append(movieView.render().el)
+      // is better to save all the rendered views into a array and append to the view than
+      // to append movie by movie
+      var moviesViews = []
+      _.each(_this.collection, function (movie) {
+        var movieView = new MovieView({model: movie})
+        moviesViews.push(movieView.render().el)
+      })
+
+      this.$el.append(moviesViews)
       return this
     }
   })

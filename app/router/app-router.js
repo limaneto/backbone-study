@@ -9,12 +9,10 @@ function ($, CatalogView, SelectedMovieView, MovieCollection, Backbone) {
     displayCatalog: function () {
       MovieCollection.fetch({
         success: function (response) {
-          console.log(response.toJSON())
           $('body').append(new CatalogView({collection: response.toJSON()}).el)
         }
       })
     },
-
 
     /**
      * This event creates a new html element with info about the movie selected and appends

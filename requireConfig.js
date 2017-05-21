@@ -10,7 +10,6 @@ require.config({
     movieView: 'app/view/movie-view',
     selectedMovieView: 'app/view/selected-movie-view',
     utils: 'app/utils',
-    init: 'app/view/initialize',
     templates: 'app/templates/template-compiler',
     text: 'build/text'
   }
